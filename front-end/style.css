@@ -1,0 +1,98 @@
+body {
+  background-color: #FFFFFF;
+}
+
+p {
+  width: 580px;
+  border: 1px solid #E5E4E4;
+  white-space: wrap;
+
+  margin-left: 27px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-right: 8px;
+  font-family: sans-serif;
+  font-size: small;
+  color: black;
+  text-align: left;
+}
+
+p.comment {
+  width: 580px;
+  display: block;
+  background-color: #FBFBFB;
+  border: 1px solid #E5E4E4;
+  white-space: wrap;
+
+  margin-left: 27px;
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: sans-serif;
+  font-size: small;
+  color: black;
+  text-align: left;
+}
+
+p.commenter {
+  width: 200px;
+  display: block;
+  border: 0px solid #E5E4E4;
+
+  margin-left: 27px;
+  padding-left: 0px;
+  padding-top: 0px;
+  font-family: sans-serif;
+  font-size: 10px;
+  color: black;
+  text-align: left;
+}
+
+p.intro {
+  font-size: 20px;
+  font-style: italic;
+  font-family: serif;
+  padding-top: 0px;
+  margin-left: 35px;
+  border: 0px;
+}
+
+p.blank {
+  border: 0px;
+  padding: 2px;
+}
+
+.displaynone {
+  display: none;
+}
+
+canvas {
+  margin-left: 27px;
+}
+
+img.avatar {
+  margin-left: 27px;
+}
+
+img.header {
+  margin-left: 0px;
+  width: 50%;
+}
+
+button {
+  background-color: #9ECECA;
+  color: #000000;
+  margin-right: 20px;
+  padding: 8px;
+  border: 0px;
+  margin-left: 25px;
+  font-size: 13px;
+}
+
+button:hover {
+  background-color: #E07976;
+  border: 2px;
+  border-color: #9ECECA;
+}

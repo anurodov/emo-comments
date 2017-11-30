@@ -1,0 +1,17 @@
+{
+  "name": "toneanalyzer",
+  "version": "1.0.0",
+  "description": "Analyze comments on your website and turn them into an interactive graph based on emotions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andrey urodov",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "express": "~3.4.4",
+    "mongodb": "^2.2.33"
+  }
+}
