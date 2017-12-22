@@ -18,8 +18,6 @@ EMO uses analyzes comments and builds a graph of emotions. Journalists then will
 
 EMO uses IBM Watson API to process comments, that’s why journalists don’t have to worry about the AI side of the tool, it’s all handled by IBM. That also means that EMO doesn’t require a lot of effort on the programming side to create, so it can be used by almost everybody. It's written in NodeJS and front-end is mostly in P5.js and jQuery.
 
-The video of how exactly EMO works is avialiable [here](https://youtu.be/rjfMgjGt-us).
-
 
 **References**
 
