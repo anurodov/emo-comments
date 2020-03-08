@@ -1,20 +1,27 @@
-# Project 3: From Portland to Portland
+# EMO comments
 
-### Overview
-* Intro
-* Figma
-* Images
+### Final Project Documentation
+* Overview
+* Demo
+* References
 
-**Intro**
+**Overview**
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+<img src="/images/dude.png" width="50%">
 
+EMO is a prototype of an AI-solution which helps authors see how well their article really did using Natural Language Processing. Journalists have ignored comments for a long time, but maybe we just have to sort them better to hear our readers?
 **Figma**
 
-* [Link to the project on Figma](https://www.figma.com/file/lNsn9aE1Be6bvg9FeAzRXT/Sprint-3-From-Portland-to-Portland-desktop-mobile?node-id=0%3A1)
+EMO uses analyzes comments and builds a graph of emotions. Journalists then will be able to see emotions like confident, tentative, analytical, angry, sad or positive and the weight of comments calculated as a percentage of total. So if journalists want to avoid trolls and participate in discussion first, they can do that by filtering.
 
-**Images**
+**Demo**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+<img src="/images/scheme.png" width="50%">
 
-Good luck and have fun!
+EMO uses IBM Watson API to process comments, that’s why journalists don’t have to worry about the AI side of the tool, it’s all handled by IBM. That also means that EMO doesn’t require a lot of effort on the programming side to create, so it can be used by almost everybody. It's written in NodeJS and front-end is mostly in P5.js and jQuery.
+
+
+**References**
+
+* [IBM Watson Tone Analyzer API](https://www.ibm.com/watson/developercloud/tone-analyzer/api/v3/#post-tone)
+* [MLab's cloud database for storing comments](https://www.mlab.com) 
