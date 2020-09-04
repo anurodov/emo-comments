@@ -12,6 +12,6 @@
     "async": "^2.6.0",
     "body-parser": "^1.18.2",
     "express": "~3.4.4",
-    "mongodb": "^2.2.33"
+    "mongodb": "^3.6.1"
   }
 }
